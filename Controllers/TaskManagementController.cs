@@ -8,9 +8,9 @@ namespace Project_Management.Controllers
     [ApiController]
     public class TaskManagementController : ControllerBase
     {
-        private readonly _DbContext _context;
+        private readonly DBContext _context;
 
-        public TaskManagementController(_DbContext context)
+        public TaskManagementController(DBContext context)
         {
             _context = context;
         }
